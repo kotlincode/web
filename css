@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+*{
+    box-sizing:border-box;
+    margin:0;
+}
+.container{
+    max-width:1140px;
+    margin:auto;
+    
+}
+.row{
+    display:flex;
+    flex-warp:warp;
+}
+header{
+    position:absolute;
+    left:0px;
+    right:0px;
+    border-bottom:1px solid #423940;
+    padding: 0px 15px;
+    z-index: 10;
+    
+}
+header .row{
+    justify-content: space-between;
+    align-items:center;
+}
+header .brand-name a{
+    text-decoration: none;
+    font-size:29px;
+    font-weight: 600;
+    color: #ffffff;
+    position: relative;  
+}
+
+header .navbar ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+    
+    
+}
+header .navbar ul li{
+    display: inline-block;
+    margin-left: 35px;
+}
+header .navbar ul li a{
+    font-size:22px;
+    text-decoration:none;
+    line-height: 72px;
+    color: #ffffff;
+    display: block;
+    font-weight: 600;
+    position: relative;
+}
+header .navbar ul li a.active::before{
+    content: '';
+    height: 3px;
+    background-color: #ffffff;
+    width: 100%;
+    position:absolute;
+    left: 0px;
+    top: 100%;
+}
+.home{
+    min-height:100vh;
+    background-image: url("img/dark.jpg");
+    background-size:cover;
+    background-position: center;   
+}
+.home .full-screen{
+    min-height: 100vh;
+}
+.home .home-content{
+    flex:0 0 100%;
+    max-width: :100%;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    
+    
+}
+.home .home-content .block{
+    flex: 0 0 75%;
+    max-width:%75;
+    padding-left:35px; 
+    border-left:5px solid #ffffff;
+        
+}
+.home .home-content .block h6{
+    color: #ffffff;
+    font-size:20px;
+    font-weight: 500;
+    margin: 0;
+    padding:0;
+    
+}
+.home .home-content .block h1{
+    color: #ffffff;
+    font-size:70px;
+    font-weight: 600;
+    margin: 0;
+    padding:0;
+    
+    
+}
+.home .home-content .block h3{
+    color: red;
+    font-size:50px;
+    font-weight: 500;
+    margin: 0;
+    padding:0;
+}
+.home .home-content .block .cv-btn {
+    padding-top: 17px;
+    
+    
+}
+.home .home-content .block .cv-btn a{
+    border-radius: 20px;
+    color:#ffffff;
+    border:1px solid #ffffff;
+    padding: 10px 25px;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
